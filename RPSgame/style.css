@@ -1,0 +1,51 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+h1{
+    font-size:4rem;
+    text-shadow: 0px 0px 15px hsl(166, 46%, 45%);
+    transition: transform 0.5s ease;
+}
+h1:hover{
+    transform: scale(1.2);
+}
+
+#images button{
+    height:100px;
+    width:100px;
+    font-size:3rem;
+    border-radius: 150px;
+    margin:0 10px;
+    background-color: rgb(18, 195, 226);
+    margin-bottom:1rem;
+    
+}
+
+#images button:hover{
+    background-color: hsl(189, 52%, 78%);
+
+}
+
+#playersdisplay,#computersdisplay{
+    font-size:1.56rem;
+    margin-bottom:20px;
+}
+
+#resultdisplay{
+    font-size:3rem;
+}
+#playersScore,#computersScore{
+    font-size:1.56rem;
+    margin:10px;
+}
+
+.greentext{
+    color:green;
+}
+.redtext{
+    color:red;
+}
